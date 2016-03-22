@@ -1,4 +1,6 @@
-Hola, esto es una prueba
+Qué pasaría si la política de un empleo cambia y uno solo puede llamarse Homero?
+Mirá este caso en RMI y muchos más en este repositorio.
 
-Qué onda si meto un cambio sin actualizar?
-Y este cambio también
+
+
+Ok. No muchos más. Pero este si.
