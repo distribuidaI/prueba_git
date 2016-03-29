@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import entities.Empleado;
+import entities.PoliticaNoHomeros;
 
 
 public class ServidorEmpleadoImpl extends UnicastRemoteObject implements ServidorEmpleado {

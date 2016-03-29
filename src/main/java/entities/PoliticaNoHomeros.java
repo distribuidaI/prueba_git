@@ -1,8 +1,9 @@
-package server;
+package entities;
 
 import java.io.Serializable;
 
-import entities.Empleado;
+import server.Politica;
+import server.ViolacionDePoliticaException;
 
 public class PoliticaNoHomeros implements Politica, Serializable {
 	private static final long serialVersionUID = 3891169171081225288L;
