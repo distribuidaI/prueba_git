@@ -1,10 +1,10 @@
-package server;
+package edu.undav.pdist.server;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.List;
 
-import entities.Empleado;
+import edu.undav.pdist.entities.Empleado;
 
 public interface ServidorEmpleado extends Remote {
 
@@ -13,6 +13,5 @@ public interface ServidorEmpleado extends Remote {
 	List<Empleado> getEmpleados() throws RemoteException;
 	
 	Politica getPolicy() throws RemoteException;
-	
 	
 }

@@ -1,4 +1,4 @@
-package server;
+package edu.undav.pdist.server;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
@@ -6,8 +6,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import entities.Empleado;
-import entities.PoliticaNoHomeros;
+
+import edu.undav.pdist.entities.Empleado;
+import edu.undav.pdist.entities.PoliticaNoHomeros;
 
 
 public class ServidorEmpleadoImpl extends UnicastRemoteObject implements ServidorEmpleado {

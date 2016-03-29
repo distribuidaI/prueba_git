@@ -1,4 +1,4 @@
-package entities;
+package edu.undav.pdist.entities;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package server;
+package edu.undav.pdist.server;
 
 public class ViolacionDePoliticaException extends RuntimeException {
 

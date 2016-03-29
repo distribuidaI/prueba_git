@@ -1,4 +1,4 @@
-package server;
+package edu.undav.pdist.server;
 
 import java.rmi.Naming;
 import java.rmi.RemoteException;

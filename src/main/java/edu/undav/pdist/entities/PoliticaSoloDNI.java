@@ -1,9 +1,9 @@
-package entities;
+package edu.undav.pdist.entities;
 
 import java.io.Serializable;
 
-import server.Politica;
-import server.ViolacionDePoliticaException;
+import edu.undav.pdist.server.Politica;
+import edu.undav.pdist.server.ViolacionDePoliticaException;
 
 public class PoliticaSoloDNI implements Politica, Serializable {
 	private static final long serialVersionUID = 3891169171081225288L;

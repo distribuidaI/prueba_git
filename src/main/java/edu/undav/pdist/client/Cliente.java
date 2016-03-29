@@ -1,11 +1,11 @@
-package client;
+package edu.undav.pdist.client;
 
 import java.rmi.Naming;
 
-import entities.Empleado;
-import server.Politica;
-import server.ViolacionDePoliticaException;
-import server.ServidorEmpleado;
+import edu.undav.pdist.entities.Empleado;
+import edu.undav.pdist.server.Politica;
+import edu.undav.pdist.server.ServidorEmpleado;
+import edu.undav.pdist.server.ViolacionDePoliticaException;
 
 public class Cliente {
 

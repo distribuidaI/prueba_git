@@ -1,6 +1,6 @@
-package server;
+package edu.undav.pdist.server;
 
-import entities.Empleado;
+import edu.undav.pdist.entities.Empleado;
 
 public interface Politica {
 	
