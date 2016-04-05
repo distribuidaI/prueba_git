@@ -11,7 +11,7 @@ public class PoliticaNoHomerosTest {
 	@Test
 	public void chequearValidez() {
 		Politica politica = new PoliticaNoHomeros();
-		politica.chequearValidez(new Empleado("homero", "12312321"));
+		politica.chequearValidez(new Empleado("juanete", "12312321"));
 		
 		//no debería fallar, ya que NO se llama "homero". Si llega hasta acá, es un éxito
 	}
