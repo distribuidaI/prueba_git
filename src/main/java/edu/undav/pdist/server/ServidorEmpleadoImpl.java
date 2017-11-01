@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 import edu.undav.pdist.entities.Empleado;
-import edu.undav.pdist.entities.PoliticaNoHomeros;
+import edu.undav.pdist.entities.PoliticaDNI10Millones;
 
 
 public class ServidorEmpleadoImpl extends UnicastRemoteObject implements ServidorEmpleado {
@@ -36,7 +36,7 @@ public class ServidorEmpleadoImpl extends UnicastRemoteObject implements Servido
 
 	@Override
 	public Politica getPolicy() throws RemoteException {
-		return new PoliticaNoHomeros();
+		return new PoliticaDNI10Millones();
 	}
 	
 	
